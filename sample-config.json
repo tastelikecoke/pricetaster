@@ -1,0 +1,27 @@
+{
+	"cmcurl": "https://sandbox-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest",
+	"cmckey": "?",
+	"pushoverurl": "https://api.pushover.net/1/messages.json",
+	"pushovertoken": "?",
+	"pushoveruser": "?",
+	"checks": [
+		{
+			"name": "ada-checker",
+			"type": "lowerthan",
+			"symbol": "ADA",
+			"value": 1.10
+		},
+		{
+			"name": "eth-checker",
+			"type": "lowerthan",
+			"symbol": "ETH",
+			"value": 1500
+		},
+		{
+			"name": "btc-checker",
+			"type": "greaterthan",
+			"symbol": "BTC",
+			"value": 60000
+		}
+	]
+}

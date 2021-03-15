@@ -1,0 +1,256 @@
+{
+	"status": {
+		"timestamp": "2021-03-13T11:52:14.293Z",
+		"error_code": 0,
+		"error_message": null,
+		"elapsed": 15,
+		"credit_count": 1,
+		"notice": null
+	},
+	"data": {
+		"ADA": {
+			"id": 2010,
+			"name": "Cardano",
+			"symbol": "ADA",
+			"slug": "cardano",
+			"num_market_pairs": 259,
+			"date_added": "2017-10-01T00:00:00.000Z",
+			"tags": [
+				"mineable",
+				"dpos",
+				"pos",
+				"platform",
+				"research",
+				"smart-contracts",
+				"staking",
+				"binance-chain"
+			],
+			"max_supply": 45000000000,
+			"circulating_supply": 31948309440.747814,
+			"total_supply": 45000000000,
+			"is_active": 1,
+			"platform": null,
+			"cmc_rank": 5,
+			"is_fiat": 0,
+			"last_updated": "2021-03-13T11:50:15.000Z",
+			"quote": {
+				"USD": {
+					"price": 1.13604499665119,
+					"volume_24h": 5712679713.391948,
+					"percent_change_1h": 4.62271428,
+					"percent_change_24h": 4.00685821,
+					"percent_change_7d": 1.63740666,
+					"percent_change_30d": 24.06992837,
+					"percent_change_60d": 300.12430153,
+					"percent_change_90d": 639.59943622,
+					"market_cap": 36294717091.625534,
+					"last_updated": "2021-03-13T11:50:15.000Z"
+				}
+			}
+		},
+		"BNB": {
+			"id": 1839,
+			"name": "Binance Coin",
+			"symbol": "BNB",
+			"slug": "binance-coin",
+			"num_market_pairs": 594,
+			"date_added": "2017-07-25T00:00:00.000Z",
+			"tags": [
+				"marketplace",
+				"payments"
+			],
+			"max_supply": 170532785,
+			"circulating_supply": 154532785,
+			"total_supply": 170532785,
+			"is_active": 1,
+			"platform": null,
+			"cmc_rank": 3,
+			"is_fiat": 0,
+			"last_updated": "2021-03-13T11:50:12.000Z",
+			"quote": {
+				"USD": {
+					"price": 282.91079716824055,
+					"volume_24h": 4268644988.249496,
+					"percent_change_1h": 5.7547368,
+					"percent_change_24h": -0.09644273,
+					"percent_change_7d": 25.27462413,
+					"percent_change_30d": 127.96416418,
+					"percent_change_60d": 632.89250062,
+					"percent_change_90d": 879.09533963,
+					"market_cap": 43718993392.978325,
+					"last_updated": "2021-03-13T11:50:12.000Z"
+				}
+			}
+		},
+		"BTC": {
+			"id": 1,
+			"name": "Bitcoin",
+			"symbol": "BTC",
+			"slug": "bitcoin",
+			"num_market_pairs": 9852,
+			"date_added": "2013-04-28T00:00:00.000Z",
+			"tags": [
+				"mineable",
+				"pow",
+				"sha-256",
+				"store-of-value",
+				"state-channels",
+				"coinbase-ventures-portfolio",
+				"three-arrows-capital-portfolio",
+				"polychain-capital-portfolio"
+			],
+			"max_supply": 21000000,
+			"circulating_supply": 18652631,
+			"total_supply": 18652631,
+			"is_active": 1,
+			"platform": null,
+			"cmc_rank": 1,
+			"is_fiat": 0,
+			"last_updated": "2021-03-13T11:49:02.000Z",
+			"quote": {
+				"USD": {
+					"price": 60012.78113547844,
+					"volume_24h": 62432762908.70236,
+					"percent_change_1h": 4.6223639,
+					"percent_change_24h": 6.1279232,
+					"percent_change_7d": 24.36898163,
+					"percent_change_30d": 30.6099375,
+					"percent_change_60d": 71.29981343,
+					"percent_change_90d": 211.38108267,
+					"market_cap": 1119396261803.8403,
+					"last_updated": "2021-03-13T11:49:02.000Z"
+				}
+			}
+		},
+		"DOGE": {
+			"id": 74,
+			"name": "Dogecoin",
+			"symbol": "DOGE",
+			"slug": "dogecoin",
+			"num_market_pairs": 332,
+			"date_added": "2013-12-15T00:00:00.000Z",
+			"tags": [
+				"mineable",
+				"pow",
+				"scrypt",
+				"medium-of-exchange",
+				"memes",
+				"payments"
+			],
+			"max_supply": null,
+			"circulating_supply": 128743201387.5298,
+			"total_supply": 128743201387.5298,
+			"platform": {
+				"id": 1839,
+				"name": "Binance Smart Chain",
+				"symbol": "BNB",
+				"slug": "binance-coin",
+				"token_address": "0xba2ae424d960c26247dd6c32edc70b295c744c43"
+			},
+			"is_active": 1,
+			"cmc_rank": 15,
+			"is_fiat": 0,
+			"last_updated": "2021-03-13T11:51:03.000Z",
+			"quote": {
+				"USD": {
+					"price": 0.05679456683052,
+					"volume_24h": 1235363151.935111,
+					"percent_change_1h": 0.98780538,
+					"percent_change_24h": 2.59746773,
+					"percent_change_7d": 13.26993768,
+					"percent_change_30d": -23.23105018,
+					"percent_change_60d": 578.47530871,
+					"percent_change_90d": 1669.07731892,
+					"market_cap": 7311914355.179156,
+					"last_updated": "2021-03-13T11:51:03.000Z"
+				}
+			}
+		},
+		"ETH": {
+			"id": 1027,
+			"name": "Ethereum",
+			"symbol": "ETH",
+			"slug": "ethereum",
+			"num_market_pairs": 6198,
+			"date_added": "2015-08-07T00:00:00.000Z",
+			"tags": [
+				"mineable",
+				"pow",
+				"smart-contracts",
+				"coinbase-ventures-portfolio",
+				"three-arrows-capital-portfolio",
+				"polychain-capital-portfolio"
+			],
+			"max_supply": null,
+			"circulating_supply": 115031190.5615,
+			"total_supply": 115031190.5615,
+			"platform": {
+				"id": 2502,
+				"name": "Heco",
+				"symbol": "HT",
+				"slug": "huobi-token",
+				"token_address": "0x64ff637fb478863b7468bc97d30a5bf3a428a1fd"
+			},
+			"is_active": 1,
+			"cmc_rank": 2,
+			"is_fiat": 0,
+			"last_updated": "2021-03-13T11:50:03.000Z",
+			"quote": {
+				"USD": {
+					"price": 1881.1797295233544,
+					"volume_24h": 24620949112.27659,
+					"percent_change_1h": 5.2641206,
+					"percent_change_24h": 5.88645371,
+					"percent_change_7d": 20.04362877,
+					"percent_change_30d": 5.69553348,
+					"percent_change_60d": 73.90302177,
+					"percent_change_90d": 222.21663949,
+					"market_cap": 216394343947.232,
+					"last_updated": "2021-03-13T11:50:03.000Z"
+				}
+			}
+		},
+		"USDT": {
+			"id": 825,
+			"name": "Tether",
+			"symbol": "USDT",
+			"slug": "tether",
+			"num_market_pairs": 11409,
+			"date_added": "2015-02-25T00:00:00.000Z",
+			"tags": [
+				"store-of-value",
+				"payments",
+				"stablecoin",
+				"stablecoin-asset-backed"
+			],
+			"max_supply": null,
+			"circulating_supply": 38230573409.15945,
+			"total_supply": 39038167440.84519,
+			"platform": {
+				"id": 1027,
+				"name": "Ethereum",
+				"symbol": "ETH",
+				"slug": "ethereum",
+				"token_address": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+			},
+			"is_active": 1,
+			"cmc_rank": 4,
+			"is_fiat": 0,
+			"last_updated": "2021-03-13T11:50:12.000Z",
+			"quote": {
+				"USD": {
+					"price": 1.0005553150929,
+					"volume_24h": 107329903012.48782,
+					"percent_change_1h": 0.04788829,
+					"percent_change_24h": 0.04772801,
+					"percent_change_7d": 0.06104653,
+					"percent_change_30d": -0.00334978,
+					"percent_change_60d": 0.05933667,
+					"percent_change_90d": 0.03758399,
+					"market_cap": 38251803423.58378,
+					"last_updated": "2021-03-13T11:50:12.000Z"
+				}
+			}
+		}
+	}
+}
