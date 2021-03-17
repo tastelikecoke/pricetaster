@@ -2,7 +2,7 @@
 from requests import Request, Session
 from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 import json
-import time
+import time, datetime
 import sys
 import schedule
 
@@ -10,6 +10,7 @@ global is_test
 is_test = False
 
 def check_crypto(config_json, last_sent):
+	print("Debug: Job Started " + str(datetime.datetime.utcnow()))
 	total_message = ""
 	special_message = ""
 	data = get_cmcprices(config_json)
@@ -44,6 +45,8 @@ def check_crypto(config_json, last_sent):
 			print("message (not sent):" + special_message)
 		else:
 			message_pushover(special_message, config_json)
+	sys.stdout.flush()
+	sys.stderr.flush()
 
 def get_cmcprices(config_json):
 	url = config_json["cmcurl"]
@@ -101,7 +104,7 @@ def main():
 	if is_test:
 		schedule.every(5).seconds.do(lambda: check_crypto(config_json, last_sent))
 	else:
-		schedule.every(1).hours.do(lambda: check_crypto(config_json, last_sent))
+		schedule.every(20).minutes.do(lambda: check_crypto(config_json, last_sent))
 
 	while True:
 		schedule.run_pending()
