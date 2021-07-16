@@ -14,6 +14,8 @@ def check_crypto(config_json, last_sent):
 	total_message = ""
 	special_message = ""
 	data = get_cmcprices(config_json)
+	if not data:
+		return
 	if not "data" in data:
 		return
 	for crypto in data["data"].values():
